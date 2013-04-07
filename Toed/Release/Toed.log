@@ -1,0 +1,48 @@
+﻿Build started 4/1/2013 3:31:00 PM.
+     1>Project "F:\Projects\Programming\Toed\Toed\Toed.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Toed.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Toed.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\ToedAIPlayerClass.cpp ..\Common\ToedBoardClass.cpp ..\Common\ToedGameClass.cpp ..\Common\ToedPlayerClass.cpp main.cpp ToedWinGUIPlayerClass.cpp ToedWinMenuClass.cpp
+         ToedAIPlayerClass.cpp
+     1>..\Common\ToedAIPlayerClass.cpp(62): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\Common\ToedAIPlayerClass.cpp(65): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         ToedBoardClass.cpp
+         ToedGameClass.cpp
+     1>..\Common\ToedGameClass.cpp(53): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         ToedPlayerClass.cpp
+         main.cpp
+     1>main.cpp(190): warning C4244: 'initializing' : conversion from 'LONG' to 'char', possible loss of data
+         ToedWinGUIPlayerClass.cpp
+         ToedWinMenuClass.cpp
+     1>ToedWinMenuClass.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+     1>ToedWinMenuClass.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>ToedWinMenuClass.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>ToedWinMenuClass.cpp(113): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Toed.res" Toed.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\Programming\Toed\Release\Toed.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Toed.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Projects\Programming\Toed\Release\Toed.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\Programming\Toed\Release\Toed.lib" /MACHINE:X86 Release\Toed.res
+         Release\ToedAIPlayerClass.obj
+         Release\ToedBoardClass.obj
+         Release\ToedGameClass.obj
+         Release\ToedPlayerClass.obj
+         Release\main.obj
+         Release\ToedWinGUIPlayerClass.obj
+         Release\ToedWinMenuClass.obj
+         Generating code
+     1>f:\projects\programming\toed\toed\toedwinmenuclass.cpp(119): warning C4715: 'ToedWinMenu::Clicked' : not all control paths return a value
+         Finished generating code
+         Toed.vcxproj -> F:\Projects\Programming\Toed\Release\Toed.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Projects\Programming\Toed\Release\Toed.exe;#1" /manifest Release\Toed.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Toed.unsuccessfulbuild".
+         Touching "Release\Toed.lastbuildstate".
+     1>Done Building Project "F:\Projects\Programming\Toed\Toed\Toed.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.05
